@@ -9,6 +9,7 @@ html {
   display: grid;
 }
 .search-icon,
-.bell-icon{
+.bell-icon,
+.logo{
   width: 40px;
 }
