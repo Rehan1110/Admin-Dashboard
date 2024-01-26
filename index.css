@@ -8,3 +8,7 @@ html {
 .container{
   display: grid;
 }
+.search-icon,
+.bell-icon{
+  width: 40px;
+}
