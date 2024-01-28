@@ -11,8 +11,14 @@ html {
 .search-icon,
 .bell-icon,
 .logo{
-  width: 40px;
+  width: 30px;
 }
 .header-1{
   display: flex;
+}
+.input-box{
+  width: 600px;
+  height: 30px;
+  border:1px solid;
+  border-radius: 30px;
 }
