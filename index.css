@@ -22,3 +22,9 @@ html {
   border:1px solid;
   border-radius: 30px;
 }
+.image-photo{
+  width: 50px;
+}
+.image-with-name{
+  display: flex;
+}
