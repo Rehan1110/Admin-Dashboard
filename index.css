@@ -28,3 +28,7 @@ html {
 .image-with-name{
   display: flex;
 }
+.header-2{
+  display: flex;
+  justify-content: space-between;
+}
