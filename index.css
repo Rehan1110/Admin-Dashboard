@@ -13,3 +13,6 @@ html {
 .logo{
   width: 40px;
 }
+.header-1{
+  display: flex;
+}
