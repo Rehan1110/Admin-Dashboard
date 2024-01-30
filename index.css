@@ -4,6 +4,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  font-family:'Roboto','Times New Roman', Times, serif;
 }
 .container{
   display: grid;
@@ -34,4 +35,8 @@ html {
 }
 .three-images > img{
   width: 30px;
+}
+.card-container{
+  width: 200px;
+  background-color: aquamarine;
 }
