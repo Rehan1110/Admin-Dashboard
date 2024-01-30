@@ -32,3 +32,6 @@ html {
   display: flex;
   justify-content: space-between;
 }
+.three-images > img{
+  width: 30px;
+}
