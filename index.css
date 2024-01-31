@@ -66,10 +66,21 @@ html {
 }
 .image-with-name{
   display: flex;
+  column-gap: 6px;
 }
 .header-2{
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
+}
+
+.button-container > button {
+  color:white;
+  background-color: blue;
+  padding: 10px 18px;
+  border-radius: 18px;
+  border: none;
+  margin-right: 6px;
 }
 .logo{
   width: 50px;
