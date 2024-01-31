@@ -45,3 +45,9 @@ html {
   width: 200px;
   background-color: aquamarine;
 }
+.dashboard-header-container{
+  display: flex;
+}
+.dashboard-header-container > img {
+  width: 30px;
+}
