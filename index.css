@@ -8,11 +8,16 @@ html {
 }
 .container{
   display: grid;
+  grid-template-columns: 350px 1fr;
 }
 .search-icon,
 .bell-icon,
 .logo{
   width: 30px;
+}
+.header-container,
+.body{
+  grid-column: 2/3;
 }
 .header-1{
   display: flex;
