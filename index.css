@@ -8,7 +8,7 @@ html {
 }
 .container{
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 320px 1fr;
 }
 .search-icon,
 .bell-icon,
@@ -60,4 +60,13 @@ html {
 .first-header-box > div,
 .second-header-box > div {
   display: flex;
+  color: white;
+  font-size: 10px;
+  column-gap: 14px;
+}
+.sidebar-left{
+  background-color: blue;
+  grid-column: 1/2;
+  grid-row: 1/1;
+  height: 100%;
 }
