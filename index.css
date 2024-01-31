@@ -27,13 +27,25 @@ html {
 }
 .header-1{
   display: flex;
+  justify-content: space-between;
 }
 .input-section{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  column-gap: 5px;
+  column-gap: 10px;
+}
+.input-box:focus{
+  outline: none;
+}
+.profile-section{
+  display: flex;
+  gap: 15px;
+}
+.name{
+  color: white;
+  font-weight: 800;
 }
 .input-box{
   width: 600px;
@@ -50,6 +62,10 @@ html {
 .header-2{
   display: flex;
   justify-content: space-between;
+}
+.logo{
+  width: 50px;
+  border-radius: 100px;
 }
 .three-images > img{
   width: 30px;
