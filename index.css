@@ -83,6 +83,7 @@ html {
   border-radius: 18px;
   border: none;
   margin-right: 6px;
+  cursor: pointer;
 }
 .logo{
   width: 50px;
