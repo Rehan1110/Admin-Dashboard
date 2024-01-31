@@ -9,19 +9,31 @@ html {
 .container{
   display: grid;
   grid-template-columns: 320px 1fr;
-  grid-template-rows: 300px 1fr;
+  grid-template-rows: 150px 1fr;
 }
 .search-icon,
 .bell-icon,
 .logo{
   width: 30px;
 }
-.header-container,
+.header-container{
+  padding: 20px 30px;
+  background-color: rgb(63, 60, 60);
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
 .body{
   grid-column: 2/3;
 }
 .header-1{
   display: flex;
+}
+.input-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 5px;
 }
 .input-box{
   width: 600px;
