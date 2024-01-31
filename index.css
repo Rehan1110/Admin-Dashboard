@@ -54,3 +54,10 @@ html {
 .first-header-box > div > img {
   width: 30px;
 }
+.second-header-box > div >img{
+  width: 30px;
+}
+.first-header-box > div,
+.second-header-box > div {
+  display: flex;
+}
