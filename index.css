@@ -152,3 +152,7 @@ html {
 .first-header-image1{
   color: azure;
 }
+.announce-content{
+  width: 200px;
+  border: 1px solid;
+}
