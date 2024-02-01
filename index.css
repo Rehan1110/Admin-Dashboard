@@ -93,7 +93,8 @@ html {
   width: 30px;
 }
 .card-container{
-  width: 200px;
+  width: 250px;
+  height: 200px;
   background-color: rgb(77, 91, 136);
 }
 .dashboard-header-container{
