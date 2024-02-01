@@ -99,6 +99,15 @@ html {
   height: 200px;
   background-color: rgb(77, 91, 136);
 }
+.left-side{
+  display: flex;
+  flex-direction: column;
+}
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
 .dashboard-header-container{
   display: flex;
   column-gap: 15px;
