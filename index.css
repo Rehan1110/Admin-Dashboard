@@ -139,6 +139,8 @@ html {
 .sidebar-left{
   display: flex;
   flex-direction: column;
+  row-gap: 40px;
+  padding-top: 10px;
   background-color: blue;
   grid-column: 1/2;
   grid-row: 1/3;
