@@ -141,6 +141,7 @@ html {
   grid-column: 1/2;
   grid-row: 1/3;
   height: 635px;
+  padding-left: 35px;
 }
 .dashboard-text{
   color: white;
