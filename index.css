@@ -164,3 +164,7 @@ html {
 .dashboard-header-container > img{
   width: 42px;
 }
+.your-project-heading > p,
+.trending > p {
+  font-weight: bold;
+}
