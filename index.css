@@ -144,7 +144,7 @@ html {
   background-color:#15acf1;;
   grid-column: 1/2;
   grid-row: 1/3;
-  height: 635px;
+  height: 590px;
   padding-left: 35px;
 }
 .dashboard-text{
@@ -174,4 +174,18 @@ html {
 .announce-content > div {
   border-bottom: 1px solid grey;
   margin: 10px 30px;
+}
+.lower-part-images{
+width: 50px;
+}
+.content-in-trending-section{
+  display: flex;
+}
+.trending-content{
+  display: flex;
+  flex-direction: column;
+}
+.trending-content > p{
+  margin: 1px;
+  padding-left: 10px;
 }
