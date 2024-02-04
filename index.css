@@ -26,6 +26,7 @@ html {
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-column: 2/3;
+  background-color: rgb(223, 216, 216);
 }
 .header-1{
   display: flex;
@@ -97,9 +98,19 @@ html {
 .card-container{
   position: relative;
   width: 300px;
-  height: 200px;
+  height: 190px;
   padding: 15px 18px;
-  background-color: rgb(77, 91, 136);
+  background-color:white;
+  border-radius: 10px;
+}
+.card-container-para-1,
+.trending-first{
+  font-weight: bold;
+}
+.card-container-para-2,
+.trending-second{
+  font-size: small;
+  color: rgb(54, 52, 52);
 }
 .three-images{
   position: absolute;
