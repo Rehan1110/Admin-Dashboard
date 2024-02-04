@@ -168,3 +168,10 @@ html {
 .announcement > p {
   font-weight: bold;
 }
+.announce-content{
+  width: 240px;
+}
+.announce-content > div {
+  border-bottom: 1px solid grey;
+  margin: 10px 30px;
+}
