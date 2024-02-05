@@ -15,6 +15,7 @@ html {
 .bell-icon,
 .logo{
   width: 30px;
+  cursor: pointer;
 }
 .header-container{
   padding: 15px 25px;
@@ -27,6 +28,7 @@ html {
   grid-template-columns: 1fr 300px;
   grid-column: 2/3;
   background-color: rgb(223, 216, 216);
+  padding: 15px 25px;
 }
 .header-1{
   display: flex;
@@ -53,12 +55,13 @@ html {
 .input-box{
   width: 600px;
   height: 30px;
-  border:1px solid;
+  border:none;
   border-radius: 30px;
 }
 .image-photo{
   width: 50px;
-  border-radius:100px
+  border-radius:100px;
+  cursor: pointer;
 }
 .first-text{
   color: white;
@@ -93,6 +96,7 @@ html {
   border-radius: 100px;
 }
 .three-images > img{
+  cursor: pointer;
   width: 22px;
 }
 .card-container{
@@ -137,12 +141,15 @@ html {
 }
 .dashboard-header-container > img {
   width: 30px;
+  cursor: pointer;
 }
 .first-header-box > div > img {
   width: 30px;
+  cursor: pointer;
 }
 .second-header-box > div >img{
   width: 30px;
+  cursor: pointer;
 }
 .first-header-box > div,
 .second-header-box > div {
@@ -159,7 +166,7 @@ html {
   background-color:#15acf1;;
   grid-column: 1/2;
   grid-row: 1/3;
-  height: 850px;
+  height: 860px;
   padding-left: 35px;
 }
 .dashboard-text{
@@ -190,6 +197,7 @@ html {
   margin: 10px 30px;
 }
 .lower-part-images{
+  cursor: pointer;
 width: 48px;
 border-radius: 100px;
 padding-right: 10px;
@@ -216,4 +224,7 @@ padding-right: 10px;
 }
 .trending-content-first{
   font-weight: 500;
+}
+.right-side{
+  padding-left: 35px;
 }
