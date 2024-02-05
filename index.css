@@ -102,6 +102,7 @@ html {
   padding: 15px 18px;
   background-color:white;
   border-radius: 10px;
+  border-left: 6px solid orange;
 }
 .card-container-para-1,
 .trending-first{
